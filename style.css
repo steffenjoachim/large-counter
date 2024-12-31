@@ -6,7 +6,7 @@
 
 body {
     font-size: 16px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -16,7 +16,7 @@ header {
 
     padding: 1rem 2rem;
 
-    background-color: #ffd101;
+    background-color: #ffd106;
     height: 20vh;
 }
 
@@ -41,7 +41,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 70vh;
+    height: 80vh;
     font-size: 10rem;
     transition: background-color 0.5s ease, width 0.5s ease; /* Add transitions */
 }
@@ -53,7 +53,7 @@ main::before {
     top: 0;
     left: 0;
     height: 100%;
-    background-color: #ffd101; /* Example color */
+    background-color: #ffd106; /* Example color */
     width: var(--bg-width, 0%); /* Initial width */
     transition: width 0.5s ease; /* Add a transition for the width */
     z-index: -1; /* Make sure the pseudo-element is behind the content */
