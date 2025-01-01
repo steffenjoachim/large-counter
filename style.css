@@ -32,9 +32,15 @@ header p {
 
 button {
     border: .25rem solid black;
+    background-color: #ffd106;
     padding: .5rem 1rem;
     font-size: 2rem;
-    box-shadow: 5px 5px 0 .125px white;
+    box-shadow: 5px 5px 0 .125px rgba(0, 0, 0, .5);
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: .2;
 }
 
 main {
